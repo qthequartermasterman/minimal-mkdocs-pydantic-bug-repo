@@ -1,0 +1,187 @@
+{
+  "pydantic_settings_mre": {
+    "filepath": "/Users/<username>/minimal-mkdocs-pydantic-bug-repo/src/pydantic_settings_mre/__init__.py",
+    "kind": "module",
+    "members": {
+      "module": {
+        "filepath": "/Users/<username>/minimal-mkdocs-pydantic-bug-repo/src/pydantic_settings_mre/module.py",
+        "imports": {
+          "settings": "pydantic_settings_mre.settings"
+        },
+        "kind": "module",
+        "members": {
+          "settings": {
+            "endlineno": 2,
+            "inherited": false,
+            "kind": "alias",
+            "lineno": 2,
+            "name": "settings",
+            "runtime": true,
+            "target_path": "pydantic_settings_mre.settings"
+          }
+        },
+        "name": "module",
+        "runtime": true
+      },
+      "settings": {
+        "filepath": "/Users/<username>/minimal-mkdocs-pydantic-bug-repo/src/pydantic_settings_mre/settings.py",
+        "imports": {
+          "pydantic_settings": "pydantic_settings"
+        },
+        "kind": "module",
+        "members": {
+          "AnotherModel": {
+            "bases": [
+              {
+                "cls": "ExprName",
+                "member": "AnotherModel",
+                "name": "MyModel"
+              }
+            ],
+            "decorators": [],
+            "endlineno": 8,
+            "kind": "class",
+            "labels": [
+              "pydantic-model"
+            ],
+            "lineno": 7,
+            "members": {
+              "asdf": {
+                "annotation": {
+                  "cls": "ExprName",
+                  "member": null,
+                  "name": "str"
+                },
+                "endlineno": 8,
+                "kind": "attribute",
+                "labels": [
+                  "pydantic-field"
+                ],
+                "lineno": 8,
+                "name": "asdf",
+                "runtime": true
+              }
+            },
+            "name": "AnotherModel",
+            "runtime": true
+          },
+          "MyModel": {
+            "bases": [
+              {
+                "cls": "ExprAttribute",
+                "values": [
+                  {
+                    "cls": "ExprName",
+                    "member": "MyModel",
+                    "name": "pydantic"
+                  },
+                  {
+                    "cls": "ExprName",
+                    "member": null,
+                    "name": "BaseModel"
+                  }
+                ]
+              }
+            ],
+            "decorators": [],
+            "endlineno": 5,
+            "kind": "class",
+            "labels": [
+              "pydantic-model"
+            ],
+            "lineno": 3,
+            "members": {
+              "id": {
+                "annotation": {
+                  "cls": "ExprName",
+                  "member": null,
+                  "name": "int"
+                },
+                "endlineno": 4,
+                "kind": "attribute",
+                "labels": [
+                  "pydantic-field"
+                ],
+                "lineno": 4,
+                "name": "id",
+                "runtime": true
+              },
+              "name": {
+                "annotation": {
+                  "cls": "ExprName",
+                  "member": null,
+                  "name": "str"
+                },
+                "endlineno": 5,
+                "kind": "attribute",
+                "labels": [
+                  "pydantic-field"
+                ],
+                "lineno": 5,
+                "name": "name",
+                "runtime": true
+              }
+            },
+            "name": "MyModel",
+            "runtime": true
+          },
+          "MySettingsModel": {
+            "bases": [
+              {
+                "cls": "ExprAttribute",
+                "values": [
+                  {
+                    "cls": "ExprName",
+                    "member": "MySettingsModel",
+                    "name": "pydantic_settings"
+                  },
+                  {
+                    "cls": "ExprName",
+                    "member": null,
+                    "name": "BaseSettings"
+                  }
+                ]
+              }
+            ],
+            "decorators": [],
+            "endlineno": 11,
+            "kind": "class",
+            "lineno": 10,
+            "members": {
+              "asdf": {
+                "annotation": {
+                  "cls": "ExprName",
+                  "member": null,
+                  "name": "str"
+                },
+                "endlineno": 11,
+                "kind": "attribute",
+                "labels": [
+                  "instance-attribute"
+                ],
+                "lineno": 11,
+                "name": "asdf",
+                "runtime": true
+              }
+            },
+            "name": "MySettingsModel",
+            "runtime": true
+          },
+          "pydantic_settings": {
+            "endlineno": 1,
+            "inherited": false,
+            "kind": "alias",
+            "lineno": 1,
+            "name": "pydantic_settings",
+            "runtime": true,
+            "target_path": "pydantic_settings"
+          }
+        },
+        "name": "settings",
+        "runtime": true
+      }
+    },
+    "name": "pydantic_settings_mre",
+    "runtime": true
+  }
+}
