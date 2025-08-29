@@ -1,0 +1,102 @@
+{
+  "stainedglass_proxy": {
+    "filepath": "/Users/AndrewSansom/minimal-mkdocs-pydantic-bug-repo/src/stainedglass_proxy/__init__.py",
+    "kind": "module",
+    "members": {
+      "settings": {
+        "filepath": "/Users/AndrewSansom/minimal-mkdocs-pydantic-bug-repo/src/stainedglass_proxy/settings.py",
+        "imports": {
+          "pydantic": "pydantic",
+          "pydantic_settings": "pydantic_settings"
+        },
+        "kind": "module",
+        "members": {
+          "ProxySettings": {
+            "bases": [
+              {
+                "cls": "ExprAttribute",
+                "values": [
+                  {
+                    "cls": "ExprName",
+                    "member": "ProxySettings",
+                    "name": "pydantic_settings"
+                  },
+                  {
+                    "cls": "ExprName",
+                    "member": null,
+                    "name": "BaseSettings"
+                  }
+                ]
+              }
+            ],
+            "decorators": [],
+            "endlineno": 5,
+            "kind": "class",
+            "lineno": 4,
+            "members": {
+              "asdf": {
+                "annotation": {
+                  "cls": "ExprName",
+                  "member": null,
+                  "name": "str"
+                },
+                "endlineno": 5,
+                "kind": "attribute",
+                "labels": [
+                  "instance-attribute"
+                ],
+                "lineno": 5,
+                "name": "asdf",
+                "runtime": true
+              }
+            },
+            "name": "ProxySettings",
+            "runtime": true
+          },
+          "pydantic": {
+            "endlineno": 1,
+            "inherited": false,
+            "kind": "alias",
+            "lineno": 1,
+            "name": "pydantic",
+            "runtime": true,
+            "target_path": "pydantic"
+          },
+          "pydantic_settings": {
+            "endlineno": 2,
+            "inherited": false,
+            "kind": "alias",
+            "lineno": 2,
+            "name": "pydantic_settings",
+            "runtime": true,
+            "target_path": "pydantic_settings"
+          }
+        },
+        "name": "settings",
+        "runtime": true
+      },
+      "sgt_manager": {
+        "filepath": "/Users/AndrewSansom/minimal-mkdocs-pydantic-bug-repo/src/stainedglass_proxy/sgt_manager.py",
+        "imports": {
+          "settings": "stainedglass_proxy.settings"
+        },
+        "kind": "module",
+        "members": {
+          "settings": {
+            "endlineno": 2,
+            "inherited": false,
+            "kind": "alias",
+            "lineno": 2,
+            "name": "settings",
+            "runtime": true,
+            "target_path": "stainedglass_proxy.settings"
+          }
+        },
+        "name": "sgt_manager",
+        "runtime": true
+      }
+    },
+    "name": "stainedglass_proxy",
+    "runtime": true
+  }
+}
